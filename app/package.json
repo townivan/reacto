@@ -10,25 +10,23 @@
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages-deploy"
-  },
+  "scripts":{
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages-deploy"
+  },
 
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
   },
 
-   "gh-pages-deploy": {
-    "staticpath": "build",
-    "prep": [
-      "build"
-    ],
-    "post": [],
-    "noprompt": false
-  }
+  "gh-pages-deploy":{
+    "staticpath": "build",
+    "prep":["build"],
+    "post":[],
+    "noprompt": false
+  }
 
 
 }
